@@ -29,10 +29,13 @@
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
+    "jquery": "^3.7.1",
     "ngx-google-analytics": "^11.2.0",
     "ngx-owl-carousel-o": "^17.0.0",
+    "popper.js": "^1.16.1",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
+    "undici-types": "^5.26.5",
     "zone.js": "~0.14.6"
   },
   "devDependencies": {
