@@ -70,9 +70,9 @@ body {
 }
 
 .main-btn {
-  color: $Green;
+  color: $White;
   background-color: transparent;
-  border: 1px solid $Green;
+  border: 1px solid $White;
   border-radius: 3px;
   font-size: 13px;
   font-family: $CodeFont;
@@ -89,6 +89,9 @@ body {
   &:active {
     background-color: rgba(100, 255, 218, 0.07);
     outline: none;
+    color: $White;
+    text-decoration: none;
+    font-weight: bold;
   }
 }
 

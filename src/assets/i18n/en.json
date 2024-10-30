@@ -1,16 +1,17 @@
 {
-  "Header.Item1": "About Me",
-  "Header.Item2": "Experience",
+  "Header.Item1": "About Us",
+  "Header.Item2": "Services",
   "Header.Item3": "Projects",
   "Header.Item4": "Contact",
-  "Header.cvBtn": "Resume",
+  "Header.contact": "Tell us",
   "Header.cvName": "CV_Jose_Hernandez_Spanish.pdf",
 
-  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Pretitle": "Hello! We are",
+  "Banner.Title": "Software Specialists",
   "Banner.Description": "I have <span class='underline'>8 years of experience</span> developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>Laravel</span>, applying good practices and development standards.",
   "Banner.ActionBtn": "Say Hi",
 
-  "AboutMe.Title": "About Me",
+  "AboutMe.Title": "About Us",
   "AboutMe.Paragraphs": [
     "In <span class='underline'>8 years of experience</span> I have covered many roles: <span class='underline'>Systems Analyst</span>, <span class='underline'>Backend Developer</span>, <span class='underline'>Frontend Developer</span>, and <span class='underline'>Technical Lead</span>. I love contributing my knowledge to create new things that help solve problems.",
     "My capabilities also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I am working on.",
@@ -18,7 +19,7 @@
     "Some of the technologies I have trained and worked with include (but are not limited to):"
   ],
 
-  "Experience.Title": "Experience",
+  "Experience.Title": "Services",
   "Experience.Jobs": [
     {
       "Tab": "Global",

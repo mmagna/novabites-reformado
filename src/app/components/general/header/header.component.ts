@@ -60,17 +60,8 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible=false;
   }
 
-  downloadCV(){
-    this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log(val)
-      // app url
-      let url = window.location.href;
-
-      // Open a new window with the CV
-      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
-    })
-
+  openWhatsApp(){
+    window.open('https://wa.me/+56987019063', '_blank');
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])

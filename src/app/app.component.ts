@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit{
   title = 'andresjosehr-portfolio';
-  
+
   constructor(
     private titleService: Title,
     private metaService: Meta,
@@ -23,19 +23,19 @@ export class AppComponent implements OnInit{
     ){
     }
   ngOnInit(): void{
-    
+
     this.languageService.initLanguage()
 
 
-    this.titleService.setTitle( "José Andrés | Frontend Developer" );
+    this.titleService.setTitle( "Nova Bites | Especialista en Software" );
 
     this.metaService.addTags([
-      {name: 'keywords', content: 'Frontend, software, developer'},
-      {name: 'description', content: 'Con 4 años de experiencia desarrollando sistemas, interfaces, bots y soluciones tecnológicas  para hacer de la web un lugar mejor. En mi trabajo me gusta liderar, proponer y ejecutar ideas, escribir y refactorizar código limpio, reutilizable y escalable.'},
+      {name: 'keywords', content: 'software, developer, company'},
+      {name: 'description', content: 'Somos una empresa dedica a crear tu idea en realidad, desarrollando sistemas, interfaces y soluciones tecnológicas para hacer de la web un lugar mejor. Nuestra pasión es conectar a las empresas con sus clientes a través de experiencias digitales inolvidables.'},
     ]);
-    
-    
-    AOS.init(); 
+
+
+    AOS.init();
 
   }
 }
