@@ -64,7 +64,8 @@
       "imgs": [
         "assets/images/neuroavanza/neuroavanza-cl.png"
       ],
-      "Technologies": ["Wordpress", "Elementor"]
+      "Technologies": ["Wordpress", "Elementor"],
+      "Url" : "https://neuroavanza.cl/"
     },
 
     {
@@ -73,7 +74,8 @@
       "imgs": [
         "assets/images/apaltagua/apaltagua-vinos.png"
       ],
-      "Technologies": ["Shopify", "E-commerce"]
+      "Technologies": ["Shopify", "E-commerce"],
+      "Url": ""
     }
   ],
 
